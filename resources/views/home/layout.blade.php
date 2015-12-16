@@ -11,9 +11,10 @@
   <div class="navbar navbar-default" role="navigation"> 
    <div class="container">
      　
-    <div class="navbar-header">
-      　 
-     <a href="##" class="navbar-brand">学生社团管理</a> 　
+    <div class="navbar-header"> 
+     <a href="/">
+     <img src="{{Config::get('constants.HOME_IMG')}}/logo.jpg" />
+     </a> 　
     </div> 
     <ul class="nav nav-pills"> 
      <li class=""><a href="{{action('Home\IndexController@index')}}">首页</a></li> 

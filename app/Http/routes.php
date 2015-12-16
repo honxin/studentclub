@@ -61,6 +61,10 @@ Route::group(['prefix'=>'admin','middleware'=>'logincheck'],function(){
 	
 	//活动
 	Route::resource('activity','Admin\ActivityController');
+	
+	//后台评论
+	Route::resource('comment','Admin\CommentController');
+	Route::get('listcomment','Admin\CommentController@listcomment');
 });
 	
 	//验证码

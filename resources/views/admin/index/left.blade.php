@@ -56,12 +56,22 @@
 	  	<p><a href = "{{ action('Admin\AssocAccountController@index') }}" target = "content">社团账号列表</a>/<a href = "{{ action('Admin\AssocAccountController@create') }}" target = "content">添加</a></p>
 	  </div>
 
-	   <div class="title">
+	  <div class="title">
 	    <i class="dropdown icon"></i>
 	    活动管理
 	  </div>
 	  <div class="content">
 	  	<p><a href = "{{ action('Admin\ActivityController@index') }}" target = "content">活动列表</a>/<a href = "{{ action('Admin\ActivityController@create') }}" target = "content">添加</a></p>
+	  </div>
+
+	  <div class="title">
+	    <i class="dropdown icon"></i>
+	    评论管理
+	  </div>
+	  <div class="content">
+	  	<p><a href = "{{ action('Admin\CommentController@listcomment',['type'=>'all']) }}" target = "content">所有评论</a></p>
+	  	<p><a href = "{{ action('Admin\CommentController@listcomment',['type'=>'assoc']) }}" target = "content">社团评论</a></p>
+	  	<p><a href = "{{ action('Admin\CommentController@listcomment',['type'=>'act']) }}" target = "content">活动评论</a></p>
 	  </div>
 
 	</div>
