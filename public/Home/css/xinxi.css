@@ -1,0 +1,29 @@
+
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.content{
+	width:960px;
+	border:1px solid red;
+	margin:0 auto;
+}
+.kuan img{
+	width:200px;
+	height:140px;
+	float:left;
+	margin-right:10px;
+}
+li{
+	margin-bottom:50px;
+	border-bottom:1px solid #ccc;
+}
+.caption{
+	height:200px;
+}
+.clear{
+	clear:both;
+}
+.clear a{
+	margin-top:10px;
+}

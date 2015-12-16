@@ -1,0 +1,42 @@
+.navbar {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.carousel {
+    margin-top: 0px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+
+.carousel .item {
+    height: 400px;
+    background-color: #000;
+}
+
+.carousel .item img {
+    width: 100%;
+}
+
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.footer {
+    background: #337ab7;
+    font-size: 20px;
+    color: #fff;
+}
+.bg{
+    background-color: #0086b3;
+}
+.fontcolor{
+    color:#000080;
+}
+.picture {
+    width:100%;
+    height: 100px;
+    background-color: #337ab7;
+}
